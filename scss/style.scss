@@ -1,5 +1,6 @@
 @import "utilities";
 @import "config";
+@import "btnConfig";
 
 * {
   box-sizing: border-box;
@@ -8,7 +9,7 @@
 }
 
 body {
-  background-color: $light-color;
+  background-color: $light-color; // This is a variable declared in the config.scss file
   font-family: $font-stack;
   line-height: 1;
 }
@@ -23,7 +24,7 @@ a {
 
 .hero {
   // This is where the bulk of the SCSS styling needs to be done
-
+  display: $flex;
   // Take a look at the other files we've built already. How can they be useful here?
 
   // Also, take time to review the features of SCSS we've already covered:

@@ -25,6 +25,10 @@ a {
   text-decoration: none;
 }
 
+.hero {
+  display: flex;
+}
+
 .m-1 {
   margin: 1rem;
 }
