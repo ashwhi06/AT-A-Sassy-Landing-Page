@@ -40,10 +40,31 @@ a {
       padding: 15px;
       color: #FFC300;
       cursor: pointer;
-      border: 3px solid red;
+     
     }
     a{
+      color: text-color-picker($primary-color)
+    }
 
+    a:hover{
+      color: $light-color;
+    }
+
+    &-content{
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+
+      h1{
+        font-size: 3rem;
+      }
+
+      img{
+        width: 45%;
+        border-radius: 50%;
+      }
     }
   }
   // This is where the bulk of the SCSS styling needs to be done

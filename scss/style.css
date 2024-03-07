@@ -70,8 +70,28 @@ a {
   padding: 15px;
   color: #FFC300;
   cursor: pointer;
-  border: 3px solid red;
 }
+.hero nav a {
+  color: white;
+}
+.hero nav a:hover {
+  color: #FFC300;
+}
+.hero nav-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.hero nav-content h1 {
+  font-size: 3rem;
+}
+.hero nav-content img {
+  width: 45%;
+  border-radius: 50%;
+}
+
 .m-1 {
   margin: 1rem;
 }
